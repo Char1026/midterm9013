@@ -1,0 +1,530 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Quicksand');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #DDD;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Quicksand', 'Droid Sans', 'Arial', sans-serif;
+/*    background-color: #000;*/
+}
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+h1{
+    font: bold 4.236rem 'EB Garamond', 'Droid Serif', 'Times New Roman', serif;
+    color: #FFF;
+/*    font-size: 6rem;*/
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    display: inline-block;
+    font-size: 3.72rem;
+    
+    
+}
+h2{
+    font: bold 2.618rem 'EB Garamond', 'Droid Serif', 'Times New Roman', serif;
+}
+li, p, a{
+    font: bold 1.618rem 'Quicksand', 'Droid Sans', 'Arial', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Quicksand', 'Droid Sans Mono', 'Arial', 
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+/*    background-color: #000;*/
+    background-image:url(../img/Outer-Space-Stars-l.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: left top;
+    background-size: cover;
+    min-height: 200px;
+/*    min-width: 650px;*/
+    border-radius: 40px;
+    font-size:
+    
+    
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+}
+nav>ul{
+    width: 100%;
+    
+}
+nav li{
+    width: 100%;
+    list-style: none;
+    float: left;
+    display: block;
+/*    padding: 3px;*/
+/*    border: 2px groove #AAA;*/
+/*    margin: 4px 0 4px 0;*/
+
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 1.918rem 'Droid Sans', 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    background-color: #333;
+    color: #EEE;
+    transition: 0.5s;
+    
+    
+    
+}
+main{
+    width: 100%;
+}
+.col{
+    float: left;
+    width: 100%;
+    display: block;
+}
+.col img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: azure;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+        
+}
+
+footer>ul{
+    list-style: none;
+/*    background-color: #BBB;*/
+}
+
+footer a,
+footer a:link,
+footer a:visited{
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    display: block;
+    
+        
+    
+    }
+footer a:active,
+footer a:focus,
+footer a:hover{
+    background-color: #333;
+    color: #EEE;
+    transition: 0.5s;
+        
+    }
+
+.masthead{
+    width: 100%;
+    height: auto;
+}
+
+
+p{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px){
+    
+h1{
+    font-size: 5.2rem;
+    text-align: center;
+    
+}
+h2{
+    font-size: 2.3rem;        
+}
+    
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+/*    background-color: #000;*/
+    background-image:url(../img/Outer-Space-Stars-l.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    min-height: 200px;
+/*    min-width: 650px;*/
+    
+    border-radius: 40px;
+    padding: 1rem;
+    
+    
+}
+nav{
+    width: 90%;
+    text-align: center;
+}
+nav>ul{
+    width: 100%;
+    
+}
+nav li{
+    width: 20%;
+    list-style: none;
+    float: left;
+    display: block;
+/*    padding: 5px;*/
+
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    
+    
+/*    padding: 10px;*/
+}
+.col{
+    float: left;
+    width: 50%;
+    display: block;
+    padding: 8px;
+/*    border: 3px groove #AAA;*/
+    
+}
+.col img{
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+    background-color: azure;
+    margin: 5px;
+    float: left;
+}
+footer{
+    width: 90%;
+    clear: both;
+
+    
+}
+    p{
+        font-size: 1.12rem;
+    }
+    
+}
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+  
+    
+    
+    
+    
+@media screen and (min-width: 800px){
+    
+h1{
+    font-size: 6rem;
+    
+} 
+h2{
+    font-size: 2.6rem;        
+}
+    
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+/*    background-color: #000;*/
+    background-image:url(../img/Outer-Space-Stars-l.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 650px;
+    
+    border-radius: 40px;
+    
+    
+}
+nav{
+    width: 90%;
+    text-align: center;
+}
+nav>ul{
+    width: 100%;
+/*    border: 2px groove #AAA;*/
+    
+}
+nav li{
+    width: 20%;
+    list-style: none;
+    float: left;
+    display: block;
+    
+
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    
+}
+main{
+    width: 90%;
+}
+.col{
+    float: left;
+    width: 50%;
+    display: block;
+    padding: 8px;
+/*    border: 3px groove #AAA;*/
+}
+.col img{
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    background-color: #DDD;
+    padding: 5px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    clear: both;
+    
+    
+}
+    
+    p{
+        font-size: 1.2rem;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+    
+    
+@media screen and (min-width: 1200px){
+   
+    
+h1{
+    font-size: 7.7rem;
+    }
+h2{
+    font-size: 3rem;
+    
+}
+    
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+/*    background-color: #000;*/
+    background-image:url(../img/Outer-Space-Stars-l.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    min-height: 200px;
+    min-width: 650px;
+    
+    border-radius: 40px;
+    
+    
+}
+nav{
+    width: 30%;
+    float: left;
+}
+nav>ul{
+    width: 100%;
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+    
+}
+nav li{
+    width: 100%;
+    list-style: none;
+    float: left;
+    display: block;
+    text-decoration: none;
+    
+    
+
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    
+}
+main{
+    width: 70%;
+    display: inline;
+    float: left;
+/*    margin: 0;*/
+    
+}
+.col{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    display: inline;
+/*    border: 3px groove #AAA;*/
+    
+    
+    
+}
+.col img{
+    width: 55%;
+/*    height: auto;*/
+    max-width: 100%;
+/*    background-color: black;*/
+/*    padding: 7px;*/
+    margin: 5px;
+    float: left;
+}
+    .col img:after{
+        clear: both;
+    }
+    
+footer{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+    }
+footer>ul{
+    text-decoration: none;
+    
+        
+    }
+footer li {
+    text-decoration: none;
+        
+    }
+footer a,
+footer a:link,
+footer a:visited{
+      text-decoration: none;
+    
+    
+    }
+footer a:active,
+footer a:focus,
+footer a:hover{
+        
+    }
+    p{
+        font-size: 1.4rem;
+    }
+}
